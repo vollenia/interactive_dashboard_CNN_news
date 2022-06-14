@@ -43,13 +43,17 @@ Same as the analysis of authorship over the whole year, the data from each month
 - VIDEO BAR AUTHORSHIP
 
 ### Publications Throughout the Month
-The publications of individual days are represented as bars which display furter information when interacted with.
+In this context, the publications of individual days are represented as bars which display furter information when interacted with.
 The interaction is triggered uppon a vertival overlap of the cursor with the positions of the individual bars, resulting in triggering the bars annotations by simply moving the cursor horizonatally across the plot. This appears to be a reasonable implementation given the horizonally stretched nature of the plot and the absence of overlapping lines.
 
 - VIDEO BAR MONTH PUBLICATIONS
 
 ### Density of Publications
+When viewing the density of publications for each month, we have the opportunity to view it in context of the density graph for the whole year. This is possible because we are viewing the distriburion within each month and therefore, individual variations, such as the varying number of days between each month or even between a month and the whole year, don't play a role.
 
+As for interactivity. It is possible to blend out ether the density for the year or the density for the displayed month.
+
+- VIDEO DENSITY MONTH
 
 ## Dashboard
 The dashboard consists of two main pages where the first page displyas the _Year_ view and the second the _Months_ view with their corresponding plots. The user can switch freely between the two pages using the widget located under _Settings_ in the sidebar.
