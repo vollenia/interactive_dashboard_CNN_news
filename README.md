@@ -9,6 +9,20 @@ The analysis is performed in Python 3.10.3 and presented in a Jupyter notebook f
 To view the interactve dashboard, navigate to the root directory of the repository and run _panel serve interactive_dashboard.ipynb_ from within the virtual environment.
 
 ## Analysis of the Year
+This chapter focuses on the analysis of the year as a whole. It contains plots that visualize the progression of publications, distribution of authorship and a table that represents the year as a single workweek. The idea is to get an initial objective impression of the data that will provide not only valuable insights but also allow to develop an intuition as to which aspects to inspect further.
+
+### Publications Throughout the Year
+When we inspect the progression of the publications throughout the year as one continuous line, we observe a significant degree of fluctuation in the number of publications. To get a clearer understanding of this fluctuation, we use polynomial regression to create the yellow trend line which smooths out the harshness of the blue line resembling the raw publication counts. The green line on the other hand visualizes the continuous delelopment of publication counts and is created by performing linear regression. Despite the high fluctuation, we observe a significant increase in publications throughout the year.
+
+Having made the plots interactive, enables us not only to inspect any point along any of the lines but also to blend out individual lines. This becomes very useful when we intend to tell a story abount the data to an audience since we can then do this gradually, instead of overloading our audience with multiple overlapping curves.
+
+- VIDEO YEAR LINE
+
+### Distribution of Authorship
+
+
+### Year as a Workweek
+
 
 ## Analysis of the Months
 
