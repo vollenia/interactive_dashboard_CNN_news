@@ -35,6 +35,21 @@ Viewing the total _Counts_, we see a significant dropoff towards the weekend, wh
 
 
 ## Analysis of the Months
+This chapter focuses on the analysis of the individual months. It contains plots that visualize the distribution of authorship, progression of publications as well as the density of dublications for each month contrasted against the whole year. While the plots for the year as a whole show a broad picture, the idea here is to be able to inspect individual components that make up this broad picture in more detail.
+
+### Distribution of Authorship
+Same as the analysis of authorship over the whole year, the data from each month is grouped into three classes (single, collaboration, unknown). While displaying these resuls in form of a pie chart would likely be a better fit, the overarching focus on the synergy between all plots for the monthly view required the use of a different type of visualization.
+
+- VIDEO BAR AUTHORSHIP
+
+### Publications Throughout the Month
+The publications of individual days are represented as bars which display furter information when interacted with.
+The interaction is triggered uppon a vertival overlap of the cursor with the positions of the individual bars, resulting in triggering the bars annotations by simply moving the cursor horizonatally across the plot. This appears to be a reasonable implementation given the horizonally stretched nature of the plot and the absence of overlapping lines.
+
+- VIDEO BAR MONTH PUBLICATIONS
+
+### Density of Publications
+
 
 ## Dashboard
 The dashboard consists of two main pages where the first page displyas the _Year_ view and the second the _Months_ view with their corresponding plots. The user can switch freely between the two pages using the widget located under _Settings_ in the sidebar.
