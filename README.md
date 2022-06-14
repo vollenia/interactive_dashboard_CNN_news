@@ -19,9 +19,19 @@ Having made the plots interactive, enables us not only to inspect any point alon
 - VIDEO YEAR LINE
 
 ### Distribution of Authorship
+While knowing the progression of publications, we don't know how these publications came to be. Therefore, we need to inspect their authorship. Considering the large number of journalists working for CNN, we don't want to look at every single one individually but group them together in a reasonable manner. The approach selected, consist of mainly distinguishing between a single contributor to the contents of the article and a collaboration between multiple authors. Additionally, articles which don't provide any name author are included as a separate group.
 
+Inspecting the chart, we observe that roughly 11% of atricles don't contain any named author and individual contributions and collaborations resemble a roughly 2 to 1 relationship. This provides us with the insight that for most day-to-day news articles, the work of one single journalist is sufficient.
+
+- VIDEO PIE YEAR
 
 ### Year as a Workweek
+Instead of viewing each day individually, the reporting on news can be consided a recurring "workweek" event throughout the year. 
+Contrary to the mostly common five day workweek, news atricles are being published seven days a week, resulting in a workweek from Monday to Sunday. To inspect the contribution of individual weekdays to the overall picture, we condense the information from the whole year into a one week representation.
+
+Viewing the total _Counts_, we see a significant dropoff towards the weekend, which is also reflected in the _Median_ values with a 30% decrease for Saturday and 40% for Sunday. Observing the _Standard Deviation_ we further see a notably lower degree of fluctuation for the weekend, ulimately indicating that not only are less articles being published on the weekends but that this is happening consistently.
+
+- VIDEO TABLE
 
 
 ## Analysis of the Months
