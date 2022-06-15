@@ -16,18 +16,14 @@ When we inspect the progression of the publications throughout the year as one c
 
 Having made the plots interactive, enables us not only to inspect any point along any of the lines but also to blend out individual lines. This becomes very useful when we intend to tell a story about the data to an audience since we can then do this gradually, instead of overloading our audience with multiple overlapping curves.
 
-<p align="center">
-  <img src="media/pub_year.gif" width="100%" />
-</p>
+https://user-images.githubusercontent.com/83287775/173880951-1129555a-c055-46a2-b1f9-69679810c9f9.mov
 
 ### Distribution of Authorship
 While knowing the progression of publications, we don't know how these publications came to be. Therefore, we need to inspect their authorship. Considering the large number of journalists working for CNN, we don't want to look at every single one individually but group them together in a reasonable manner. The approach selected, consist of mainly distinguishing between a single contributor to the contents of the article and a collaboration between multiple authors. Additionally, articles which don't provide any name author are included as a separate group.
 
 Inspecting the chart, we observe that roughly 11% of articles don't contain any named author and individual contributions and collaborations resemble a roughly 2 to 1 relationship. This provides us with the insight that for most day-to-day news articles, the work of one single journalist is sufficient.
 
-<p align="center">
-  <img src="media/author_year.gif" width="50%" />
-</p>
+https://user-images.githubusercontent.com/83287775/173881079-9dcb79bc-5bc1-4a10-be6d-2e2746435015.mov
 
 ### Year as a Workweek
 Instead of viewing each day individually, the reporting on news can be considered a recurring "workweek" event throughout the year. 
@@ -35,9 +31,7 @@ Contrary to the mostly common five day workweek, news articles are being publish
 
 Viewing the total _Counts_, we see a significant drop-off towards the weekend, which is also reflected in the _Median_ values with a 30% decrease for Saturday and 40% for Sunday. Observing the _Standard Deviation_ we further see a notably lower degree of fluctuation for the weekend, ultimately indicating that not only are less articles being published on the weekends but that this is happening consistently.
 
-<p align="center">
-  <img src="media/week_year.gif" width="66%" />
-</p>
+https://user-images.githubusercontent.com/83287775/173881140-cc7ec2a6-58cd-4ac6-bab1-630be90c585f.mov
 
 ## Analysis of the Months
 This chapter focuses on the analysis of the individual months. It contains plots that visualize the distribution of authorship, progression of publications as well as the density of publications for each month contrasted against the whole year. While the plots for the year as a whole show a broad picture, the idea here is to be able to inspect individual components that make up this broad picture in more detail.
@@ -45,26 +39,20 @@ This chapter focuses on the analysis of the individual months. It contains plots
 ### Distribution of Authorship
 Same as the analysis of authorship over the whole year, the data from each month is grouped into three classes (single, collaboration, unknown). While displaying these results in form of a pie chart would likely be a better fit, the overarching focus on the synergy between all plots for the monthly view required the use of a different type of visualization.
 
-<p align="center">
-  <img src="media/author_month.gif" width="66%" />
-</p>
+https://user-images.githubusercontent.com/83287775/173881221-c8e50a63-027e-4816-91b3-c005c702ec45.mov
 
 ### Publications Throughout the Month
 In this context, the publications of individual days are represented as bars which display furter information when interacted with.
 The interaction is triggered upon a vertical overlap of the cursor with the positions of the individual bars, resulting in triggering the bars annotations by simply moving the cursor horizontally across the plot. This appears to be a reasonable implementation given the horizontally stretched nature of the plot and the absence of overlapping lines.
 
-<p align="center">
-  <img src="media/pub_month.gif" width="66%" />
-</p>
+https://user-images.githubusercontent.com/83287775/173881321-58bda6e5-24b4-4780-893e-979e93f8faa7.mov
 
 ### Density of Publications
 When viewing the density of publications for each month, we have the opportunity to view it in context of the density graph for the whole year. This is possible because we are viewing the distribution within each month and therefore, individual variations, such as the varying number of days between each month or even between a month and the whole year, don't play a role.
 
 As for interactivity. It is possible to blend out ether the density for the year or the density for the displayed month.
 
-<p align="center">
-  <img src="media/density_month.gif" width="66%" />
-</p>
+https://user-images.githubusercontent.com/83287775/173881433-2334dc7b-87c1-45fb-acd4-fc9f9e81f97b.mov
 
 ## Dashboard
 The dashboard consists of two main pages where the first page displays the _Year_ view and the second the _Months_ view with their corresponding plots. The user can switch freely between the two pages using the widget located under _Settings_ in the sidebar.
