@@ -70,13 +70,13 @@ As for interactivity. It is possible to blend out ether the density for the year
 The dashboard consists of two main pages where the first page displyas the _Year_ view and the second the _Months_ view with their corresponding plots. The user can switch freely between the two pages using the widget located under _Settings_ in the sidebar.
 
 <p align="center">
-  <img src="media/dash_main.gif" width="75%" />
+  <img src="media/dash_main.gif" width="100%" />
 </p>
 
 While the _Year_ view consists of the three discribed plots, the _Months_ view allowes for displaying the same three plots for each of the individual months. The months can be navigated through the widget located at the top of the _Months_ page.
 
 <p align="center">
-  <img src="media/dash_months.gif" width="75%" />
+  <img src="media/dash_months.gif" width="100%" />
 </p>
 
 The dashboard is designed to adapt to different browser settings and will resize accordingly. If resizing manually, the page might need to be reloaded to be displayed properly.
