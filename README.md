@@ -20,6 +20,10 @@ Having made the plots interactive, enables us not only to inspect any point alon
   <img src="media/pub_year.gif" width="100%" />
 </p>
 
+https://user-images.githubusercontent.com/83287775/173878119-e6b4d132-5ba6-4d7f-81dd-ed125cc1be97.mov
+
+
+
 ### Distribution of Authorship
 While knowing the progression of publications, we don't know how these publications came to be. Therefore, we need to inspect their authorship. Considering the large number of journalists working for CNN, we don't want to look at every single one individually but group them together in a reasonable manner. The approach selected, consist of mainly distinguishing between a single contributor to the contents of the article and a collaboration between multiple authors. Additionally, articles which don't provide any name author are included as a separate group.
 
