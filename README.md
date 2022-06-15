@@ -14,7 +14,7 @@ This chapter focuses on the analysis of the year as a whole. It contains plots t
 ### Publications Throughout the Year
 When we inspect the progression of the publications throughout the year as one continuous line, we observe a significant degree of fluctuation in the number of publications. To get a clearer understanding of this fluctuation, we use polynomial regression to create the yellow trend line which smooths out the harshness of the blue line resembling the raw publication counts. The green line on the other hand visualizes the continuous delelopment of publication counts and is created by performing linear regression. Despite the high fluctuation, we observe a significant increase in publications throughout the year.
 
-Having made the plots interactive, enables us not only to inspect any point along any of the lines but also to blend out individual lines. This becomes very useful when we intend to tell a story abount the data to an audience since we can then do this gradually, instead of overloading our audience with multiple overlapping curves.
+Having made the plots interactive, enables us not only to inspect any point along any of the lines but also to blend out individual lines. This becomes very useful when we intend to tell a story about the data to an audience since we can then do this gradually, instead of overloading our audience with multiple overlapping curves.
 
 - VIDEO YEAR LINE
 
