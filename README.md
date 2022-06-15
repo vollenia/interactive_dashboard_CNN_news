@@ -25,7 +25,9 @@ While knowing the progression of publications, we don't know how these publicati
 
 Inspecting the chart, we observe that roughly 11% of atricles don't contain any named author and individual contributions and collaborations resemble a roughly 2 to 1 relationship. This provides us with the insight that for most day-to-day news articles, the work of one single journalist is sufficient.
 
-- VIDEO PIE YEAR
+<p align="center">
+  <img src="media/author_year.gif" width="50%" />
+</p>
 
 ### Year as a Workweek
 Instead of viewing each day individually, the reporting on news can be consided a recurring "workweek" event throughout the year. 
@@ -33,8 +35,9 @@ Contrary to the mostly common five day workweek, news atricles are being publish
 
 Viewing the total _Counts_, we see a significant dropoff towards the weekend, which is also reflected in the _Median_ values with a 30% decrease for Saturday and 40% for Sunday. Observing the _Standard Deviation_ we further see a notably lower degree of fluctuation for the weekend, ulimately indicating that not only are less articles being published on the weekends but that this is happening consistently.
 
-- VIDEO TABLE
-
+<p align="center">
+  <img src="media/week_year.gif" width="75%" />
+</p>
 
 ## Analysis of the Months
 This chapter focuses on the analysis of the individual months. It contains plots that visualize the distribution of authorship, progression of publications as well as the density of dublications for each month contrasted against the whole year. While the plots for the year as a whole show a broad picture, the idea here is to be able to inspect individual components that make up this broad picture in more detail.
@@ -42,28 +45,38 @@ This chapter focuses on the analysis of the individual months. It contains plots
 ### Distribution of Authorship
 Same as the analysis of authorship over the whole year, the data from each month is grouped into three classes (single, collaboration, unknown). While displaying these resuls in form of a pie chart would likely be a better fit, the overarching focus on the synergy between all plots for the monthly view required the use of a different type of visualization.
 
-- VIDEO BAR AUTHORSHIP
+<p align="center">
+  <img src="media/author_month.gif" width="75%" />
+</p>
 
 ### Publications Throughout the Month
 In this context, the publications of individual days are represented as bars which display furter information when interacted with.
 The interaction is triggered uppon a vertival overlap of the cursor with the positions of the individual bars, resulting in triggering the bars annotations by simply moving the cursor horizonatally across the plot. This appears to be a reasonable implementation given the horizonally stretched nature of the plot and the absence of overlapping lines.
 
-- VIDEO BAR MONTH PUBLICATIONS
+<p align="center">
+  <img src="media/pub_month.gif" width="75%" />
+</p>
 
 ### Density of Publications
 When viewing the density of publications for each month, we have the opportunity to view it in context of the density graph for the whole year. This is possible because we are viewing the distriburion within each month and therefore, individual variations, such as the varying number of days between each month or even between a month and the whole year, don't play a role.
 
 As for interactivity. It is possible to blend out ether the density for the year or the density for the displayed month.
 
-- VIDEO DENSITY MONTH
+<p align="center">
+  <img src="media/density_month.gif" width="75%" />
+</p>
 
 ## Dashboard
 The dashboard consists of two main pages where the first page displyas the _Year_ view and the second the _Months_ view with their corresponding plots. The user can switch freely between the two pages using the widget located under _Settings_ in the sidebar.
 
-- VIDEO BOTH PAGES (MAIN WIDGET)
+<p align="center">
+  <img src="media/dash_main.gif" width="100%" />
+</p>
 
 While the _Year_ view consists of the three discribed plots, the _Months_ view allowes for displaying the same three plots for each of the individual months. The months can be navigated through the widget located at the top of the _Months_ page.
 
-- VIDEO MONTHS PAGE (MONTHS WIDGET)
+<p align="center">
+  <img src="media/dash_months.gif" width="100%" />
+</p>
 
 The dashboard is designed to adapt to different browser settings and will resize accordingly. If resizing manually, the page might need to be reloaded to be displayed properly.
