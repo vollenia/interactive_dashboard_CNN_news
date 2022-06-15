@@ -16,7 +16,9 @@ When we inspect the progression of the publications throughout the year as one c
 
 Having made the plots interactive, enables us not only to inspect any point along any of the lines but also to blend out individual lines. This becomes very useful when we intend to tell a story about the data to an audience since we can then do this gradually, instead of overloading our audience with multiple overlapping curves.
 
-- VIDEO YEAR LINE
+<p align="center">
+  <img src="media/pub_year.gif" width="100%" />
+</p>
 
 ### Distribution of Authorship
 While knowing the progression of publications, we don't know how these publications came to be. Therefore, we need to inspect their authorship. Considering the large number of journalists working for CNN, we don't want to look at every single one individually but group them together in a reasonable manner. The approach selected, consist of mainly distinguishing between a single contributor to the contents of the article and a collaboration between multiple authors. Additionally, articles which don't provide any name author are included as a separate group.
