@@ -6,7 +6,7 @@ The goal of this project is to analyze [previously collected data](https://githu
 Once again, the focus of this analysis lies not on the contents of the articles themselves but on the meta information of these articles and since there is no specific problem that needs to be solved, an exploratory analysis is performed. For this purpose the data has been re-collected on the 2<sup>nd</sup> of May, 2022 and reflects the state of the CNN website at this point in time, which deviates slightly from the state reflected [_previously_](https://github.com/vollenia/data_analysis_CNN_news).
 
 The analysis is performed in Python 3.10.3 and presented in a Jupyter notebook format. The virtual environment needed to run the notebook can be re-created by using the included _requirements.txt_.
-To view the interactive dashboard, navigate to the root directory of the repository and run _panel serve interactive_dashboard.ipynb_ from within the virtual environment.
+To view the interactive dashboard, navigate to the root directory of the repository, run _panel serve interactive_dashboard.ipynb_ from within the virtual environment, copy the displayed url and paste in into the browser.
 
 ## Analysis of the Year
 This chapter focuses on the analysis of the year as a whole. It contains plots that visualize the progression of publications, distribution of authorship and a table that represents the year as a single workweek. The idea is to get an initial objective impression of the data that will provide not only valuable insights but also allow to develop an intuition as to which aspects to inspect further.
